@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RPS</string>
+    <string name="search_opponent">Поиск соперника...</string>
+    <string name="you_are_ready">Вы готовы?</string>
+    <string name="info">Информация</string>
+    <string name="settings">Настройки</string>
+    <string name="find_opponent">Начать игру</string>
+    <string name="yes">Да!</string>
+    <string name="no">Нет</string>
+    <string name="score_of_opponent">0</string>
+    <string name="my_score">0</string>
+    <string name="colon">:</string>
+    <string name="back_menu">back to menu</string>
+    <string name="you_lose">you lose</string>
+    <string name="you_win">you win</string>
+    <string name="opponent_chooses">...</string>
+</resources>

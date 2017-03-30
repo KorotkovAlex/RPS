@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="alex.rps.SearchForAnOpponentFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/linearGO"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:clickable="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewGo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="@string/search_opponent"
+            android:textColor="@color/colorTextMenu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutYes"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/linearGO"
+        android:layout_marginTop="31dp"
+        android:layout_toLeftOf="@+id/linearGO"
+        android:layout_toStartOf="@+id/linearGO"
+        android:background="@color/colorMenu"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textViewYes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="@string/yes"
+            android:textColor="@color/colorTextMenu" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutNo"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/linearLayoutYes"
+        android:layout_toEndOf="@+id/linearGO"
+        android:layout_toRightOf="@+id/linearGO"
+        android:background="@color/colorMenu"
+        android:clickable="true"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textViewNo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="@string/no"
+            android:textColor="@color/colorTextMenu" />
+    </LinearLayout>
+
+</RelativeLayout>
